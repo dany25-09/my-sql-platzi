@@ -1,0 +1,26 @@
+USE TRansmilenio_db;
+
+-- innsertamos sus coordenadas geograficas (lONGITUD y LATITUD) 
+-- respectivamente.
+
+-- ENTRE PORTALES (LATITUD Y LONGITUD)
+-- Portal Norte (4.75455, -74.04604)
+-- Portal Suba (4.7559383, -74.0954589)
+-- Portal 80 (4.652954100, -74.083564760)
+-- Portal De Las Americas (4.6291525, -74.1729882705278)
+-- Portal De Usme 4.4933391, -74.1027976)
+-- Portal El Dorado (4.580633640, -74.072250370)
+-- Portal 20 de Julio (4.5711143, -74.0943969)
+-- Portal Sur (4.6278286, -74.1776233)
+-- Portal Tunal (4.575754, -74.1299852)
+
+INSERT INTO `ubicacion`(estacion_id, locacion) VALUES
+(16, POINT(-74.04604, 4.75455)),
+(31, POINT(-74.0954589, 4.7559383)),
+(45, POINT(-74.083564760, 4.652954100)),
+(70, POINT(-74.1729882705278, 4.6291525)),
+(100, POINT(-74.1027976, 4.4933391)),
+(103, POINT(-74.072250370, 4.580633640)),
+(126, POINT(-74.0943969, 4.5711143)),
+(139, POINT(-74.1776233, 4.6278286)),
+(147, POINT(-74.1299852, 4.575754));
